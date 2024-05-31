@@ -1,9 +1,9 @@
 import numpy as np
 
-from Simulation_DAN import *
-from Network_DAN import *
+from Simulator import *
+from PPO import *
 import torch
-import vessl
+
 np.random.seed(1)
 random.seed(1)
 torch.manual_seed(1)
